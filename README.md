@@ -22,7 +22,7 @@ $ nuvoprog program -t n76e003 -c @config.json -a aprom.ihx -l ldrom.ihx
 
 ```
 
-You may also be interested in [libn76](https://github.com/erincandescent/libn76),
+You may also be interested in [libn76](https://github.com/keithtweed/libn76),
 a SDCC-supporting BSP for the Nuvoton N76 family.
 
 *Cortex-M devices*: While I have no objections to someone adding support for
@@ -30,7 +30,7 @@ these, have you considered OpenOCD?
 
 # Installing
 This is a Go project; install a Go toolchain and install it
-using `go get -u github.com/erincandescent/nuvoprog`. Ensure
+using `go get -u github.com/keithtweed/nuvoprog`. Ensure
 that `$GOPATH/bin` is on your path (`GOPATH` defaults to `$HOME/go`);
 alternatively, move the resulting binary to a location of your choice.
 
